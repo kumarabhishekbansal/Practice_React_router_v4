@@ -1,7 +1,7 @@
 import React, { Component, createContext } from "react";
 import { fakeAuth } from "./fakeAuth";
 
-const AuthContext = createContext();
+export const AuthContext = createContext();
 
 export default class ProvideAuth extends Component {
   constructor(props) {
